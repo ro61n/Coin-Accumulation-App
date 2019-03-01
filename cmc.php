@@ -77,7 +77,7 @@ function addBase(){
 			
 			jstring = JSON.stringify(jcontent);
 				
-			phpPart(jstring); // < --- EXPLANATION: The recieved data gets sent to phpPart function (below) to get processed by the php code.
+			phpPart(jstring); // < --- EXPLANATION: The received data gets sent to phpPart function (below) to get processed by the php code.
 				
 	var currentDt = new Date();
     var mm = currentDt.getMonth() + 1;
@@ -101,7 +101,7 @@ function addBase(){
 
 
 
-function phpPart(jstr){ // < --- EXPLANATION: The recieved data from the above ajax request. It gets sent to call_data.php which then stores the relevant info in a SQL table
+function phpPart(jstr){ // < --- EXPLANATION: The received data from the above ajax request. It gets sent to call_data.php which then stores the relevant info in a SQL table
 
 	alsoToProcess=jstr;
 
