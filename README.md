@@ -1,5 +1,5 @@
 # Coin-Accumulation-App
-A basic web-app that compares the value of cryptocurrency coins over time to assist in accumulating coins. Developed with HTML, PHP and Javascript. Working demo available at the following subdomain: http://thescrollingmall.com/CMC/cmc.php.
+A basic web-app that compares the value of cryptocurrency coins over time to assist in accumulating coins. Developed with HTML, PHP and Javascript.
 
 # Note:
 - the main (index) page is 'cmc.php'.
